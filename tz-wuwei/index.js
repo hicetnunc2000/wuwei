@@ -44,8 +44,8 @@ function clearRPCOperationGroupHash(hash) {
     return hash.replace(/\"/g, '').replace(/\n/, '');
 }
 
-//const exec = async (obj) => {
-exports.handler = async (event) => {
+const exec = async (event) => {
+//exports.handler = async (event) => {
     // event.body.arr
     //let parameter = `(Right "${event.queryStringParameters.seed}")`
 
@@ -72,15 +72,15 @@ exports.handler = async (event) => {
     const groupid = clearRPCOperationGroupHash(nodeResult.operationGroupID)
     console.log(`~~ Injected transaction(invocation) operation with ${groupid}`)
  
-    const response = {
+/*     const response = {
         statusCode: 200,
         body: event,
     };
 
-    return response;
+    return response; */
 }
 
-/* exec({
+exec({
     price_feed: [
       '35900',   '56590',
       '31310',   '9250',
@@ -90,4 +90,4 @@ exports.handler = async (event) => {
       '38580',   '790100',
       '13740'
     ]
-  }) */
+  })

@@ -92,25 +92,20 @@ const operation = async () => {
                 console.log({
                     price_feed : arr
                 })
-                axios.post(process.env.TZ_WUWEI, {
+/*                 axios.post(process.env.TZ_WUWEI, {
                     price_feed : arr
-                }).then(res => console.log(res)).catch(e => console.log(e))
+                }).then(res => console.log(res)).catch(e => console.log(e)) */
             })
 
-/*             axios.post(process.env.TZ_WUWEI, {
-                price_feed : arr
-            })
-            .then(console.log(res)) 
-*/
         })
 
     return arr
 }
 
-//operation()
+operation()
 
 
-exports.handler = async (event) => {
+/* exports.handler = async (event) => {
     arr = []
     await operation()
     const response = {
@@ -119,4 +114,4 @@ exports.handler = async (event) => {
     };
 
     return response;
-}
+} */
