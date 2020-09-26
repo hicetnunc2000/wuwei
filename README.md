@@ -1,6 +1,6 @@
 **wuwei無為**
 ``` 
-this serverless applications (off-chain workers) gets data from currencies making use of Chainlink nodes.
+these serverless applications (off-chain workers) gets data from currencies making use of Chainlink nodes.
 it implements a bridge, allowing data to be shared between smart contracts
 and dApps across different blockchains. it intends to bring open source infrastructure to defi
 from an automated and devops perspective.
