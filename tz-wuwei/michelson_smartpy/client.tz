@@ -1,0 +1,34 @@
+parameter (or (pair %request_key (string %key) (address %kt)) (int %return_value));
+storage   int;
+code
+  {
+    DUP;
+    CDR;
+    SWAP;
+    CAR;
+    IF_LEFT
+      {
+        DUP;
+        CDR;
+        CONTRACT %key_request string;
+        NIL operation;
+        SWAP;
+        IF_SOME
+          {}
+          {
+            PUSH int 16;
+            FAILWITH;
+          };
+        PUSH mutez 0;
+        DIG 3;
+        CAR;
+        TRANSFER_TOKENS;
+        CONS;
+      }
+      {
+        SWAP;
+        DROP;
+        NIL operation;
+      };
+    PAIR;
+  };

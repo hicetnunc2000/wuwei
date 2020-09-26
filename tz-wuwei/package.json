@@ -1,0 +1,30 @@
+{
+  "name": "tz-wuwei",
+  "version": "1.0.0",
+  "description": "serverless tezos bridge injects data received from a peer into a kt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/hicetnunc2000/wuwei"
+  },
+  "keywords": [
+    "blockchain",
+    "tezos",
+    "chainlink",
+    "bridge",
+    "smartcontract"
+  ],
+  "author": "@hicetnunc2000",
+  "license": "MIT",
+  "dependencies": {
+    "conseiljs": "^5.0.4",
+    "conseiljs-softsigner": "^5.0.3",
+    "dotenv": "^8.2.0",
+    "loger": "^0.2.3",
+    "loglevel": "^1.7.0",
+    "node-fetch": "^2.6.1"
+  }
+}
