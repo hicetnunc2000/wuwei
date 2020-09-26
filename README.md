@@ -1,7 +1,7 @@
 **wuwei無為**
 ``` 
 this serverless applications (off-chain workers) gets data from currencies making use of Chainlink nodes.
-it implements a bride, allowing data to be shared between smart contracts
+it implements a bridge, allowing data to be shared between smart contracts
 and dApps across different blockchains. it intends to bring open source infrastructure to defi
 from an automated and devops perspective.
 
@@ -36,7 +36,7 @@ and uses web3 and conseiljs SDKs.
 ```
 
 **kovan solidity sample**
-https://kovan.etherscan.io/address/0x6e291a2df3b24d1c96dc75e95b9552d7e450f7ad
+[0x6e291a2df3b24d1c96dc75e95b9552d7e450f7ad](https://kovan.etherscan.io/address/0x6e291a2df3b24d1c96dc75e95b9552d7e450f7ad)
 
 **carthagenet michelson sample** 
-https://better-call.dev/carthagenet/KT1AoxNnzM1eyjMPStXDkjCknerbg9qPi2Kb/operations
+[KT1AoxNnzM1eyjMPStXDkjCknerbg9qPi2Kb](https://better-call.dev/carthagenet/KT1AoxNnzM1eyjMPStXDkjCknerbg9qPi2Kb/operations)
