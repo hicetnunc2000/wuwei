@@ -5,7 +5,7 @@ it implements a bridge, allowing data to be shared between smart contracts
 and dApps across different blockchains. it intends to bring open source infrastructure to defi
 from an automated and devops perspective.
 
-it gets data from and fetchs the following USDT pairs
+it gets data from and fetchs the following ’USDT’ pairs 'AED' 'BRL' 'CAN' 'CHF' 'CNY' 'EUR' 'HKD' 'INR' 'JPY' 'KRW' 'QAR' 'RUB' 'SGD'.
 
 each update costs~ 0.011613807 Ether + 0.1 Link + 0.044876 ꜩ
 ``` 
