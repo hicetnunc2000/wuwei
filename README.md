@@ -7,7 +7,6 @@ from an automated and devops perspective.
 
 it gets data from and fetchs the following ’USDT’ pairs 'AED' 'BRL' 'CAN' 'CHF' 'CNY' 'EUR' 'HKD' 'INR' 'JPY' 'KRW' 'QAR' 'RUB' 'SGD'.
 
-each update costs~ 0.011613807 Ether + 0.1 Link + 0.044876 ꜩ
 ``` 
 **specifications** 
 ``` 
